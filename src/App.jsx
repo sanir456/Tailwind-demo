@@ -1,12 +1,28 @@
 import { RevenueCard } from "./components/RevenueCard"
 function App() {
 
-  return <div className="grid grid-cols-3 p-2">
+  return <div className="grid  grid-cols-12 gap-2 p-2">
+    <div className="col-span-12 sm:col-span-6 md:col-span-4">
     <RevenueCard
       title={"Amount pending"} 
       amount={"8,23,34.23"} 
       orderCount={true}
       count={13}></RevenueCard>
+    </div>
+    <div className="col-span-12 sm:col-span-6 md:col-span-4">
+    <RevenueCard
+      title={"Amount pending"} 
+      amount={"8,23,34.23"} 
+      orderCount={true}
+      count={13}></RevenueCard>
+    </div>
+    <div className="col-span-12 sm:col-span-12 md:col-span-4">
+    <RevenueCard
+      title={"Amount pending"} 
+      amount={"8,23,34.23"} 
+      orderCount={true}
+      count={13}></RevenueCard>
+    </div>
   </div>
 
   // return <div>

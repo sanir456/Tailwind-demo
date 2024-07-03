@@ -4,7 +4,7 @@ export const  RevenueCard = ({
     orderCount,
     count
 }) => {
-    return <div className="bg-white rounded shadow-md p-2">
+    return <div className="bg-white  rounded shadow-md p-2">
         <div className="flex gap-2">
             <div>
                 {title}
